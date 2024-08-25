@@ -19,4 +19,4 @@ name=$(basename "$1" .sh)
 
 mv "$1" ~/rbin/$name
 
-source ~/.zprofile
+source ~/.bashrc
