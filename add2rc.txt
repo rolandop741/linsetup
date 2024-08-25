@@ -1,0 +1,4 @@
+alias nrf='folder=$(date | md5sum | cut -c 1-6) ; mkdir $folder ; cd $folder'
+alias ss='source ~/.bashrc'
+alias cmod='chmod +x $1'
+alias msrv='ls *.mp4 | head -n 1'
